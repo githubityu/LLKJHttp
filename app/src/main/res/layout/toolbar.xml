@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:tools="http://schemas.android.com/tools"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:id="@+id/toolbar"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="?android:actionBarSize"
+                                   app:contentInsetEnd="0dp"
+                                   app:contentInsetLeft="0dp"
+                                   app:contentInsetRight="0dp"
+                                   app:contentInsetStart="0dp"
+                                   android:background="@color/colorAccent">
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="我的App"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:paddingRight="@dimen/dp_10"
+        android:id="@+id/am_right_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="?attr/actionBarItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        tools:text="edit" />
+</android.support.v7.widget.Toolbar>

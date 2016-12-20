@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.llkj.llkjhttp.MainActivity">
+    <include layout="@layout/toolbar"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/iv_one"/>
+    <Button
+        android:id="@+id/btn_do"
+        android:text="点击获取"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/cb_do"
+        android:layout_below="@id/btn_do"
+        android:text="点击获取"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_do"
+        android:layout_below="@id/cb_do"
+        android:text="测试文字"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_below="@id/tv_do"
+        android:id="@+id/acet_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btn_changge"
+        android:text="语音"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LLKJHttp</string>
+    <string name="copy_success">拷贝成功</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

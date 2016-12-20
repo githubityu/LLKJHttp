@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/rv_content1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_widthPercent="30%"></android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/rv_content2"
+        android:layout_toRightOf="@id/rv_content1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_widthPercent="70%"></android.support.v7.widget.RecyclerView>
+</android.support.percent.PercentRelativeLayout>
